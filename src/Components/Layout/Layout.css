@@ -1,0 +1,22 @@
+/* top div */
+.top-div {
+  background-color: rgb(58, 1, 1);
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.img-1 {
+  width: 100%;
+  height: 20rem;
+  position: relative;
+}
+/* navbarbutton */
+.button {
+  border: 1px solid white;
+
+  font-weight: 500;
+}

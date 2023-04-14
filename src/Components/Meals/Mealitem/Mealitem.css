@@ -1,0 +1,14 @@
+.line {
+  /* width: 95%; */
+  /* color: black;
+  background-color: black;
+  margin-inline: 20px; */
+  /* margin-inline: 8px; */
+}
+.description {
+  font-style: italic;
+}
+.price {
+  font-size: large;
+  margin-top: -10%;
+}

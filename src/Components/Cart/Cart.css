@@ -1,0 +1,63 @@
+.upwarddiv {
+  position: absolute;
+  z-index: 2;
+  top: 350px;
+  background-color: #ffff;
+  width: 535px;
+  /* height: 20%; */
+  max-height: 40%;
+  overflow-y: scroll;
+  border-radius: 15px;
+  overflow-y: auto;
+}
+.divtotapric {
+  margin-top: -12px;
+}
+.tota {
+  font-weight: 700;
+  font-size: x-large;
+  margin-inline: 15px;
+}
+.pric {
+  font-size: x-large;
+  margin-right: 10px;
+}
+.itemname {
+  font-size: x-large;
+  margin-top: 5px;
+}
+.buttclose {
+  width: 100px;
+  margin-right: 10px;
+  height: 35px;
+  background-color: #ffff;
+  color: brown;
+  font-size: large;
+  font-weight: 600;
+}
+.buttorder {
+  width: 100px;
+  height: 35px;
+  margin-right: 10px;
+  background-color: #ffff;
+  color: brown;
+  font-size: large;
+  font-weight: 600;
+}
+.buttclose:hover {
+  background-color: brown;
+  color: #ffff;
+}
+.buttorder:hover {
+  background-color: brown;
+  color: #ffff;
+}
+@media screen and (max-width: 600px) {
+  .upwarddiv {
+    width: 90%;
+  }
+}
+
+/* .parent-div {
+  position: relative;
+} */

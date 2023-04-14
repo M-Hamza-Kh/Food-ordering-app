@@ -1,0 +1,9 @@
+.hel {
+  background-color: black;
+  height: 150vh;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+
+  opacity: 0.3;
+}

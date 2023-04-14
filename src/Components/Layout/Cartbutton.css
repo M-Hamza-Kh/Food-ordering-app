@@ -1,0 +1,23 @@
+button {
+  border-radius: 25px;
+  width: 200px;
+  height: 80%;
+  /* padding-block: 8px;
+  padding-inline: 60px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
+  border: 1px solid brown;
+}
+@media only screen and (max-width: 400px) {
+  button {
+    width: 60%;
+  }
+}
+.thirdspan {
+  background-color: fuchsia;
+  padding-block: 2px;
+  padding-inline: 14px;
+  border-radius: 15px;
+}
